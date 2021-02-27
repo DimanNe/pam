@@ -3,7 +3,7 @@
 
 ##### Create PAM config for chrome based on [user OS login password](https://man7.org/linux/man-pages/man8/pam_unix.8.html):
 ```
-echo "auth  requisite  pam_unix.so nullok" > /etc/pam.d/chrome_pass
+echo "auth  requisite  pam_unix.so nullok" > /etc/pam.d/chrome_pass_auth
 ```
 
 ##### Compile
